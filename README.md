@@ -1,12 +1,11 @@
 # EcoSpace
 
-A modern, full-stack social media platform built using **HTML, CSS, JavaScript, Django, and SQLite**. SocialSphere enables users to connect with others, share posts, interact through comments and likes, follow profiles, and manage their own personalized social experience. The project is designed with a clean, responsive, and premium user interface while demonstrating core full-stack web development concepts.
+A modern, full-stack social media platform built using **HTML, CSS, JavaScript, Django, and SQLite**. EcoSpace enables users to connect with others, share posts, interact through comments and likes, follow profiles, and manage their own personalized social experience. The project is designed with a clean, responsive, and premium user interface while demonstrating core full-stack web development concepts.
 
----
 
 ## Project Overview
 
-SocialSphere is a mini social networking application developed as part of the **CodeAlpha Full Stack Development Internship 
+Ecospace is a mini social networking application developed as part of the **CodeAlpha Full Stack Development Internship 
 The platform provides a complete social media experience by allowing users to create accounts, build profiles, publish posts, engage with content, and connect with other users through a follow system.
 
 
@@ -106,7 +105,7 @@ The platform provides a complete social media experience by allowing users to cr
 ## Project Structure
 
 ```text
-SocialSphere/
+EcoSpace/
 │
 ├── accounts/
 ├── profiles/
