@@ -89,9 +89,15 @@ function StatCard({
   value: number | undefined;
   accent: "coral" | "magenta" | "cyan" | "amber";
 }) {
+  const tones: Record<string, string> = {
+    coral: "bg-coral/15 text-coral",
+    magenta: "bg-magenta/15 text-magenta",
+    cyan: "bg-cyan/15 text-cyan",
+    amber: "bg-amber/15 text-amber",
+  };
   return (
     <div className="glass-panel rounded-3xl p-5">
-      <div className={`mb-3 grid h-10 w-10 place-items-center rounded-2xl bg-${accent}/15 text-${accent}`}>
+      <div className={`mb-3 grid h-10 w-10 place-items-center rounded-2xl ${tones[accent]}`}>
         <Icon className="h-5 w-5" />
       </div>
       <div className="font-display text-3xl font-extrabold tabular-nums">
